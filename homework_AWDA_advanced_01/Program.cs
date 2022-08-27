@@ -1,5 +1,7 @@
 ﻿using homework_AWDA_advanced_01;
 
+
+Console.WriteLine(Methods.foo(5,12));
 Console.Write("Select array size: ");
 int size = int.Parse(Console.ReadLine());
 int[] numbers = new int[size];

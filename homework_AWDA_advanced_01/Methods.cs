@@ -10,6 +10,7 @@ namespace homework_AWDA_advanced_01
     {
         // Գտնել Max, Min, Sum, Prime, Sort գաղափարները
 
+        
         public static int Max(int [] arr)
         {
             int max = arr[0];
