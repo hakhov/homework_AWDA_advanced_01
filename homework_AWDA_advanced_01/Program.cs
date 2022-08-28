@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Ռեկուրսիայի կիրառմմաբ ստանալ Ֆիբոնաչչի շաչքի անդամները։
+
+
+Console.WriteLine(Fibonacci(int.Parse(Console.ReadLine())));
