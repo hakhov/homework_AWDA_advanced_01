@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework_AWDA_advanced_01", "homework_AWDA_advanced_01\homework_AWDA_advanced_01.csproj", "{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello Mic", "Hello Mic\Hello Mic.csproj", "{531B8B00-242A-4F31-BEBD-575747794747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hello Mic", "Hello Mic\Hello Mic.csproj", "{531B8B00-242A-4F31-BEBD-575747794747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework -1", "Homework -1\Homework -1.csproj", "{F9A75FEB-4EA5-417D-84A6-1822D59416A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{531B8B00-242A-4F31-BEBD-575747794747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{531B8B00-242A-4F31-BEBD-575747794747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{531B8B00-242A-4F31-BEBD-575747794747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A75FEB-4EA5-417D-84A6-1822D59416A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A75FEB-4EA5-417D-84A6-1822D59416A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A75FEB-4EA5-417D-84A6-1822D59416A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A75FEB-4EA5-417D-84A6-1822D59416A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
