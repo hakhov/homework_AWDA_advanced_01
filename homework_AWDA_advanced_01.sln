@@ -5,11 +5,13 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework_AWDA_advanced_01", "homework_AWDA_advanced_01\homework_AWDA_advanced_01.csproj", "{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercies", "Exercies\Exercies.csproj", "{7658C690-2277-4EE9-92DF-60FA8349E99B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercies", "Exercies\Exercies.csproj", "{7658C690-2277-4EE9-92DF-60FA8349E99B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Protected_Internal", "Example_Protected_Internal\Example_Protected_Internal.csproj", "{2305CBF4-F3A3-4EDF-B562-E524AB8E50E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_Protected_Internal", "Example_Protected_Internal\Example_Protected_Internal.csproj", "{2305CBF4-F3A3-4EDF-B562-E524AB8E50E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci_Numbers", "Fibonacci_Numbers\Fibonacci_Numbers.csproj", "{DFE2991F-0F1D-46F8-8C79-CA64A16E52CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci_Numbers", "Fibonacci_Numbers\Fibonacci_Numbers.csproj", "{DFE2991F-0F1D-46F8-8C79-CA64A16E52CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboard_Enums", "Keyboard_Enums\Keyboard_Enums.csproj", "{61E37449-D0FF-4D64-B30D-FC3F3F5EC239}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DFE2991F-0F1D-46F8-8C79-CA64A16E52CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE2991F-0F1D-46F8-8C79-CA64A16E52CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE2991F-0F1D-46F8-8C79-CA64A16E52CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E37449-D0FF-4D64-B30D-FC3F3F5EC239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E37449-D0FF-4D64-B30D-FC3F3F5EC239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E37449-D0FF-4D64-B30D-FC3F3F5EC239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E37449-D0FF-4D64-B30D-FC3F3F5EC239}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

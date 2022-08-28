@@ -11,6 +11,7 @@
     <ProjectReference Include="..\Example_Protected_Internal\Example_Protected_Internal.csproj" />
     <ProjectReference Include="..\Exercies\Exercies.csproj" />
     <ProjectReference Include="..\Fibonacci_Numbers\Fibonacci_Numbers.csproj" />
+    <ProjectReference Include="..\Keyboard_Enums\Keyboard_Enums.csproj" />
   </ItemGroup>
 
 </Project>
