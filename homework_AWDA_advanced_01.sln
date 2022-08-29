@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_AWDA_advanced_01", "homework_AWDA_advanced_01\homework_AWDA_advanced_01.csproj", "{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework_AWDA_advanced_01", "homework_AWDA_advanced_01\homework_AWDA_advanced_01.csproj", "{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{65F52BE8-F7E5-4C15-A729-E5FDB55C815D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F52BE8-F7E5-4C15-A729-E5FDB55C815D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F52BE8-F7E5-4C15-A729-E5FDB55C815D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F52BE8-F7E5-4C15-A729-E5FDB55C815D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F52BE8-F7E5-4C15-A729-E5FDB55C815D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
