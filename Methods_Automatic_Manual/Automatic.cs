@@ -6,9 +6,11 @@ public class Automatic
     public double sum;
     public double prime;
     public double sort;
-    public int i ,j;
-    private Random r = new Random();
-    public double[,] arr=new double[5,5]; 
+    public int i, j;
+    static Random r = new Random();
+    //int n = r.Next(0, 5);
+    //int m = r.Next(0, 5);
+    static double[,] arr = new double[5,5]; 
     public Automatic()
     {   
         for ( i = 0; i < arr.GetLength(0); i++)
