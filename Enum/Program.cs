@@ -1,9 +1,13 @@
-﻿ConsoleKeyInfo PressedKey;
+﻿using Enum;
 
-while(true)
+ClassKey key;
+ConsoleKey _key=ConsoleKey.Enter;
+
+while(_key!=ConsoleKey.Escape)
 {
-    PressedKey = Console.ReadKey();
-    Console.WriteLine("  You pressed: "+PressedKey.Key+"\t The number of key is: "+(int)PressedKey.Key);
+    _key = Console.ReadKey().Key;
+    key = new ClassKey(_key);
+    key.ShowInfo();
 }
  
 
