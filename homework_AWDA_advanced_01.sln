@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework_AWDA_advanced_01", "homework_AWDA_advanced_01\homework_AWDA_advanced_01.csproj", "{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_fibonaci", "03fibonaci\03_fibonaci.csproj", "{F9D5D815-4337-4792-BC74-DC88E6E34F9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_fibonaci", "03fibonaci\03_fibonaci.csproj", "{F9D5D815-4337-4792-BC74-DC88E6E34F9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_array", "03_array\03_array.csproj", "{4685B983-4223-4201-9DD4-E111504AB904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F9D5D815-4337-4792-BC74-DC88E6E34F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9D5D815-4337-4792-BC74-DC88E6E34F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9D5D815-4337-4792-BC74-DC88E6E34F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4685B983-4223-4201-9DD4-E111504AB904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4685B983-4223-4201-9DD4-E111504AB904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4685B983-4223-4201-9DD4-E111504AB904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4685B983-4223-4201-9DD4-E111504AB904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
