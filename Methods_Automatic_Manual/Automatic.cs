@@ -10,7 +10,7 @@ public class Automatic
     static Random r = new Random();
     //int n = r.Next(0, 5);
     //int m = r.Next(0, 5);
-    static double[,] arr = new double[5,5]; 
+    public double[,] arr = new double[5,5]; 
     public Automatic()
     {   
         for ( i = 0; i < arr.GetLength(0); i++)

@@ -8,15 +8,14 @@ if (number == 0)
     Console.WriteLine("Automatic Max : "+automatic.AutomaticMax());
     Console.WriteLine("Automatic MIn : "+automatic.AutomaticMin());
     Console.WriteLine("Automatic Sum : "+automatic.AutomaticSum());
-    //automatic.AutomaticSort();
+    automatic.AutomaticSort();
 }
 else if(number == 1)
-{   //Manual n = new Manual(),m= new Manual();
+{ 
     Console.Write("n = ");
-    int n=int.Parse(Console.ReadLine());    
+    int n = int.Parse(Console.ReadLine());
     Console.Write("m = ");
-    int m=int.Parse(Console.ReadLine());    
-    //m.m=int.Parse(Console.ReadLine());  
+    int m = int.Parse(Console.ReadLine());
     Manual manual = new Manual(n,m);
     Console.WriteLine();
     Console.WriteLine("Automatic Max : " + manual.ManualMax());

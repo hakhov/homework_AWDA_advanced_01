@@ -5,13 +5,13 @@
     public double sum;
     public double prime;
     public double sort;
-    //public int n, m;
+    public int n, m;
     public double[,] arr2;
     int i, j;
     public Manual(int n,int m)
     {
-        //this.n = n;
-       // this.m = m; 
+        this.n = n;
+       this.m = m; 
         for ( i = 0; i < n; i++)
         {
             for ( j = 0; j < m; j++)
