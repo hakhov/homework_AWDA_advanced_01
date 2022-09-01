@@ -1,4 +1,4 @@
-﻿// Squer Equales
+﻿// Square Equals
 
 Console.WriteLine(GetArr(1, -6, 5));
 
