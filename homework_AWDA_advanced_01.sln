@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Human\Library.cs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Access_Modifires1", "Access_Modifires1\Access_Modifires1.csproj", "{09B3C550-D653-4C59-B533-34587D7D6F81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{01425BA5-5D1F-4A7E-8D93-4C799E6205BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum", "Enum\Enum.csproj", "{01425BA5-5D1F-4A7E-8D93-4C799E6205BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Tuple_RefOut", "07_Tuple_RefOut\07_Tuple_RefOut.csproj", "{252EB21F-DD93-416B-B9CA-5FBAEEA0E93E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{01425BA5-5D1F-4A7E-8D93-4C799E6205BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01425BA5-5D1F-4A7E-8D93-4C799E6205BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01425BA5-5D1F-4A7E-8D93-4C799E6205BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{252EB21F-DD93-416B-B9CA-5FBAEEA0E93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252EB21F-DD93-416B-B9CA-5FBAEEA0E93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252EB21F-DD93-416B-B9CA-5FBAEEA0E93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252EB21F-DD93-416B-B9CA-5FBAEEA0E93E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
