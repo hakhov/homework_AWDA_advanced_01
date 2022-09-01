@@ -9,7 +9,6 @@ static string GetArr(double a, double b, double c)
     {
         double x1 = (-b - Math.Sqrt(d)) / (2 * a);
         double x2 = (-b + Math.Sqrt(d)) / (2 * a);
-        double[] arr = new double[] { x1, x2 };
         string X1= x1.ToString();
         string X2= x2.ToString();
         string str = "X1="+X1 + ", "+"X2=" + X2;
