@@ -5,11 +5,15 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework_AWDA_advanced_01", "homework_AWDA_advanced_01\homework_AWDA_advanced_01.csproj", "{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-1", "Homework-1\Homework-1.csproj", "{B0584071-F382-467C-A96C-2AC600CCCE90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework-1", "Homework-1\Homework-1.csproj", "{B0584071-F382-467C-A96C-2AC600CCCE90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework2", "Homework2\Homework2.csproj", "{E8B7D764-140E-4DE7-ABD1-60B794662FF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework2", "Homework2\Homework2.csproj", "{E8B7D764-140E-4DE7-ABD1-60B794662FF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework3", "Homework3\Homework3.csproj", "{A0BA9B23-3A0C-4C49-BD42-CA12BCD41659}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework3", "Homework3\Homework3.csproj", "{A0BA9B23-3A0C-4C49-BD42-CA12BCD41659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework4", "Homework4\Homework4.csproj", "{AE500F8F-CA1F-41F1-BEDF-03457D9B2731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework5", "Homework5\Homework5.csproj", "{4370DB28-F3D4-45D0-B9BB-4D0507714270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{A0BA9B23-3A0C-4C49-BD42-CA12BCD41659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0BA9B23-3A0C-4C49-BD42-CA12BCD41659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0BA9B23-3A0C-4C49-BD42-CA12BCD41659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE500F8F-CA1F-41F1-BEDF-03457D9B2731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE500F8F-CA1F-41F1-BEDF-03457D9B2731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE500F8F-CA1F-41F1-BEDF-03457D9B2731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE500F8F-CA1F-41F1-BEDF-03457D9B2731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4370DB28-F3D4-45D0-B9BB-4D0507714270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4370DB28-F3D4-45D0-B9BB-4D0507714270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4370DB28-F3D4-45D0-B9BB-4D0507714270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4370DB28-F3D4-45D0-B9BB-4D0507714270}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
