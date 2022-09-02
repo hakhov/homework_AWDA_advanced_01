@@ -21,3 +21,17 @@ static (double,double) GetRoots( ref double a,ref double b,ref double c)
     }
     return (x1, x2);
 }
+
+static double[] GetRoots1(double a,double b,double c)
+{
+    double[] arr = new double[2];
+    double x1 = -1, x2 = -1;
+    double D = b * b - 4 * a * c;
+    if (D >= 0)
+    {
+        arr[0] = (-b + Math.Sqrt(D)) / 2 * a;
+        arr[1] = (-b + Math.Sqrt(D)) / 2 * a;
+        return arr;
+    }
+    return arr;
+}
