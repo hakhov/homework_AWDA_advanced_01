@@ -9,8 +9,7 @@ namespace DiscriminantWithRef
     class Calc
     {
         double D;
-        double x1 = 0;
-        double x2 = 0;
+        
         public void CalcDisc1(double a, double b, double c, ref double x1, ref double x2)
         {
             D = b * b - 4 * a * c;
