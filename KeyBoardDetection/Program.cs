@@ -9,6 +9,7 @@ namespace KeyBoardDetection
             ConsoleKeyInfo button;
             do
             {
+               
                 button = Console.ReadKey();
                 Console.WriteLine($"->You Pressed {button.Key}");
 
