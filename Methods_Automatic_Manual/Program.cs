@@ -4,6 +4,7 @@ int number = int.Parse(Console.ReadLine());
 if (number == 0)
 {
     Automatic automatic = new Automatic();
+    automatic.AutomaticArray();
     Console.WriteLine();
     Console.WriteLine("Automatic Max : "+automatic.AutomaticMax());
     Console.WriteLine("Automatic MIn : "+automatic.AutomaticMin());

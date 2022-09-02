@@ -7,23 +7,39 @@ public class Automatic
     public double prime;
     public double sort;
     public int i, j;
+
     static Random r = new Random();
-    //int n = r.Next(0, 5);
-    //int m = r.Next(0, 5);
-    public double[,] arr = new double[5,5]; 
+
+    public int n = r.Next(1, 5);
+    public int m = r.Next(1, 5);
+
+    public double[,] arr;
     public Automatic()
-    {   
+    {
+         arr = new double[n, m];
         for ( i = 0; i < arr.GetLength(0); i++)
         {
             for (j = 0; j < arr.GetLength(1); j++)
             {
                 arr[i, j] = r.Next(10);
+     
+            }
+        }
+    }
+    public void AutomaticArray()
+    {
+        Console.WriteLine($"n  = {n}");
+        Console.WriteLine($"m  =  {m}");
+        for (i = 0; i < arr.GetLength(0); i++)
+        {
+            for (j = 0; j < arr.GetLength(1); j++)
+            {
                 Console.Write(arr[i,j]+"\t");
             }
             Console.WriteLine();
         }
     }
-    
+
     public double AutomaticMax()
     { 
         max = arr[0, 0];
