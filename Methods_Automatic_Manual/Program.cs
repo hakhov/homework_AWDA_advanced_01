@@ -1,4 +1,4 @@
-﻿Console.Write("Input  0 or 1 \n Number = ");
+﻿Console.Write("For Automatic input number  0 and for Manual input number 1 \n\n Number = ");
 int number = int.Parse(Console.ReadLine());
 
 if (number == 0)
@@ -7,21 +7,23 @@ if (number == 0)
     automatic.AutomaticArray();
     Console.WriteLine();
     Console.WriteLine("Automatic Max : "+automatic.AutomaticMax());
-    Console.WriteLine("Automatic MIn : "+automatic.AutomaticMin());
+    Console.WriteLine("Automatic Min : "+automatic.AutomaticMin());
     Console.WriteLine("Automatic Sum : "+automatic.AutomaticSum());
-    automatic.AutomaticSort();
+    // double[,] arr1;
+    //arr1 = 
+    //automatic.AutomaticSort(arr1);
 }
 else if(number == 1)
-{ 
+{
     Console.Write("n = ");
-    int n = int.Parse(Console.ReadLine());
+    int n=int.Parse(Console.ReadLine());
     Console.Write("m = ");
     int m = int.Parse(Console.ReadLine());
     Manual manual = new Manual(n,m);
     Console.WriteLine();
-    Console.WriteLine("Automatic Max : " + manual.ManualMax());
-    Console.WriteLine("Automatic MIn : " + manual.ManualMin());
-    Console.WriteLine("Automatic Sum : " + manual.ManualSum());
+    Console.WriteLine("Manual Max : " + manual.ManualMax());
+    Console.WriteLine("Manual MIn : " + manual.ManualMin());
+    Console.WriteLine("Manual Sum : " + manual.ManualSum());
 }
 
 

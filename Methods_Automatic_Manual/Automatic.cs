@@ -16,7 +16,7 @@ public class Automatic
     public double[,] arr;
     public Automatic()
     {
-         arr = new double[n, m];
+        arr = new double[n, m];
         for ( i = 0; i < arr.GetLength(0); i++)
         {
             for (j = 0; j < arr.GetLength(1); j++)
@@ -28,8 +28,10 @@ public class Automatic
     }
     public void AutomaticArray()
     {
+        Console.WriteLine();
         Console.WriteLine($"n  = {n}");
         Console.WriteLine($"m  =  {m}");
+        Console.WriteLine("-------------Array-------------");
         for (i = 0; i < arr.GetLength(0); i++)
         {
             for (j = 0; j < arr.GetLength(1); j++)
@@ -41,11 +43,12 @@ public class Automatic
     }
 
     public double AutomaticMax()
-    { 
+    {
+        Console.WriteLine("--------Answer-----------");
         max = arr[0, 0];
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < arr.GetLength(0); i++)
         {
-            for (int j = 0; j < 5;j++)
+            for (int j = 0; j <arr.GetLength(1);j++)
             {
                 if (arr[i, j] > max)
                     max = arr[i, j];
@@ -57,9 +60,9 @@ public class Automatic
     public double AutomaticMin()
     {
         min = arr[0, 0];
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < arr.GetLength(0); i++)
         {
-            for (int j = 0; j < 5;j++)
+            for (int j = 0; j < arr.GetLength(1);j++)
             {
                  if (arr[i, j] < min)
                 min = arr[i, j];
@@ -69,24 +72,24 @@ public class Automatic
     }
     public double AutomaticSum()
     {
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < arr.GetLength(0);i++)
         {
-            for (int j = 0; j < 5; j++)
+            for (int j = 0; j < arr.GetLength(1); j++)
             {
                 sum+=arr[i, j];
             }
         }
         return sum;
     }
-    
-    public void AutomaticSort()
+
+    public void AutomaticSort(double[,] arr1)
     {
-        Array.Sort(arr);
-        for (int i = 0; i < 5; i++)
+        Array.Sort(arr1);
+        for (int i = 0; i < arr.GetLength(0); i++)
         {
-            for (int j = 0; j < 5; j++)
+            for (int j = 0; j < arr.GetLength(1); j++)
             {
-                Console.Write(arr[i,j]+"\t");
+                Console.Write(arr1[i, j] + "\t");
             }
             Console.WriteLine();
         }
