@@ -18,7 +18,6 @@ namespace DiscriminantWithoutRefOutTuple
                 return answer;
             }
             else 
-            if(dis>=0)
             {
                double x1 = (-b + Math.Sqrt(dis)) / (2 * a);
                double x2 = (-b - Math.Sqrt(dis)) / (2 * a);
