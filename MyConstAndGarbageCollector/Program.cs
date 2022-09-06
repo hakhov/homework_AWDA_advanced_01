@@ -6,7 +6,7 @@ namespace MyConstAndGarbageCollector
     {
         static void Main(string[] args)
         {
-            ClassReadOnly first = new();
+            
             
             Console.WriteLine(GC.GetTotalMemory(false));
             Console.WriteLine(GC.GetTotalMemory(false));
@@ -20,6 +20,7 @@ namespace MyConstAndGarbageCollector
             Console.WriteLine(ClassForConst.xxa);
             Console.WriteLine(ClassForConst.xxb);
             Console.WriteLine(GC.GetTotalMemory(false));
+            ClassReadOnly first = new();
             Console.WriteLine(first.zz); 
             Console.WriteLine(GC.GetTotalMemory(false));
             Console.WriteLine(first.zz); 
