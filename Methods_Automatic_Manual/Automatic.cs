@@ -82,16 +82,46 @@ public class Automatic
         return sum;
     }
 
-    public void AutomaticSort(double[,] arr1)
+    //public void AutomaticSort()
+    //{
+    //    Array.Sort(arr);
+    //    for (int i = 0; i < arr.GetLength(0); i++)
+    //    {
+    //        for (int j = 0; j < arr.GetLength(1); j++)
+    //        {
+    //            Console.Write(arr[i, j] + "\t");
+    //        }
+    //        Console.WriteLine();
+    //    }
+    //}
+    public int Prime(double n)
+    { bool answer2=true;
+        for (int i = 2; i <=Math.Sqrt(n); i++)
+        {
+            if (n % i == 0)
+            {
+                answer2 = false;
+                break;
+            }
+            else
+                answer2 = true; 
+        }
+        if (answer2 && n!=1 && n!=0)
+            return (int)n;
+        else
+            return (-1);
+    }
+    public void AutomaticPrime()
     {
-        Array.Sort(arr1);
+        Console.WriteLine();
+        Console.WriteLine("Answer Prime\n");
         for (int i = 0; i < arr.GetLength(0); i++)
         {
             for (int j = 0; j < arr.GetLength(1); j++)
             {
-                Console.Write(arr1[i, j] + "\t");
+                if(arr[i,j]==Prime(arr[i,j]))
+                    Console.Write(arr[i,j]+"\t");
             }
-            Console.WriteLine();
         }
     }
 }

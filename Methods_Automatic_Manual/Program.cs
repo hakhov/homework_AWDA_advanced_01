@@ -9,9 +9,7 @@ if (number == 0)
     Console.WriteLine("Automatic Max : "+automatic.AutomaticMax());
     Console.WriteLine("Automatic Min : "+automatic.AutomaticMin());
     Console.WriteLine("Automatic Sum : "+automatic.AutomaticSum());
-    // double[,] arr1;
-    //arr1 = 
-    //automatic.AutomaticSort(arr1);
+    automatic.AutomaticPrime();
 }
 else if(number == 1)
 {
