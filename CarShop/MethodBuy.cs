@@ -15,21 +15,43 @@
             Console.Write("1.Euro 2.Japan: ");
             string choise = Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("Choose car by 1.Name 2.Price  :");
+            string chooseby = Console.ReadLine();
 
             switch (choise)
             {
                 case "1":
                 case "Euro":
-                    Console.Write("Enter car name correct (BMW or Mercedes-Benz): ");
-                    string carname = Console.ReadLine();
-                    return Euro_Cars.Bought_Car(carname);
+                    if (chooseby == "1" || chooseby == "Name")
+                    {
+                        Console.Write("Enter car name correct (BMW, Mercedes-Benz, Audi): ");
+                        string carname = Console.ReadLine();
+                        return Euro_Cars.Bought_Car(carname);
+                    }
+                    else
+                    {
+                        Console.Write("Enter Price: ");
+                        decimal price = decimal.Parse(Console.ReadLine());
+                        return Euro_Cars.Bought_Car(price);
+                    }
+
 
                     break;
                 case "2":
                 case "Japan":
-                    Console.Write("Enter car name correct (Toyota or Lexus): ");
-                    string carname1 = Console.ReadLine();
-                    return Japan_Cars.Bought_Car(carname1);
+
+                    if (chooseby == "1" || chooseby == "Name")
+                    {
+                        Console.Write("Enter car name correct (Toyota, Lexus, Nissan): ");
+                        string carname1 = Console.ReadLine();
+                        return Japan_Cars.Bought_Car(carname1);
+                    }
+                    else
+                    {
+                        Console.Write("Enter Price: ");
+                        decimal price = decimal.Parse(Console.ReadLine());
+                        return Japan_Cars.Bought_Car(price);
+                    }
                     break;
                 default:
                     Console.ForegroundColor = ConsoleColor.Red;

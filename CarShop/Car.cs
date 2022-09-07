@@ -7,16 +7,16 @@
         public int Id { get; private set; }
         public string Name { get; private set; }
         public string Model { get; private set; }
-        public string Color { get; private set; }
+        public Color _Color { get; private set; }
         public double Engine { get; private set; }
         public decimal Price { get; private set; }
 
-        public Car(string name, string model, string color, double engine, decimal price)
+        public Car(string name, string model, Color color, double engine, decimal price)
         {
             Id = id_generator++;
             Name = name;
             Model = model;
-            Color = color;
+            _Color = color;
             Engine = engine;
             Price = price;
         }
@@ -27,7 +27,7 @@
 
             Console.WriteLine("---------------------------------------------------");
             Console.WriteLine($"Name: {Name}\tModel: {Model}\tEngine: {Engine}\t" +
-                $"Color: {Color}\tPrice: {Price} $\tId: {Id}");
+                $"Color: {_Color}\tPrice: {Price} $\tId: {Id}");
             Console.WriteLine("---------------------------------------------------");
 
         }
