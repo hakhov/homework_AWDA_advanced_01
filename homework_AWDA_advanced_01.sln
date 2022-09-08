@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Press key", "Press key\Pres
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Get_discriminant", "Get_discriminant\Get_discriminant.csproj", "{060DCF25-8A9A-4D92-B734-36334C9C222E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operator_Overloads", "Operator_Overloads\Operator_Overloads.csproj", "{CA9C293B-F35C-4E8B-9D18-35D322BDCBA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operator_Overloads", "Operator_Overloads\Operator_Overloads.csproj", "{CA9C293B-F35C-4E8B-9D18-35D322BDCBA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get_discriminant_with ref", "Get_discriminant_with ref\Get_discriminant_with ref.csproj", "{42EA53FD-9494-4BCB-ABDE-1D17207114C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CA9C293B-F35C-4E8B-9D18-35D322BDCBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA9C293B-F35C-4E8B-9D18-35D322BDCBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA9C293B-F35C-4E8B-9D18-35D322BDCBA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EA53FD-9494-4BCB-ABDE-1D17207114C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EA53FD-9494-4BCB-ABDE-1D17207114C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EA53FD-9494-4BCB-ABDE-1D17207114C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EA53FD-9494-4BCB-ABDE-1D17207114C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
