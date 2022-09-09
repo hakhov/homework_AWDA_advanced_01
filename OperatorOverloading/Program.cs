@@ -1,0 +1,16 @@
+﻿Number2 number2_1 = new Number2(10,15);
+number2_1.Method();
+Number2 number2_2 = new Number2(5,5);
+number2_2.Method();
+Number2 number2 = number2_1 - number2_2;
+number2.Method();
+Number2 number3 = number2_1 * number2_2;
+number3.Method();
+Number2 number4 = number2_1 / number2_2;
+number4.Method();
+Console.WriteLine("---------------");
+Number1 number5= new Number1(2,3);
+number5.Method();
+number2.Method();
+Number2 number6=number5 - number2;  
+number6.Method();
