@@ -1,0 +1,11 @@
+﻿Day day = new();
+day.Myday = 365;
+Year year = new();
+Year year0 = day;
+Console.WriteLine(year0.y);
+Console.WriteLine(year0.m);
+Console.WriteLine(year0.d);
+year.m = 5;
+year.d = 1200;
+day = (Day) year;
+Console.WriteLine(day.Myday);
