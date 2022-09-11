@@ -4,11 +4,13 @@
     {
         public string Name { get; private set; }
         private List<Car> myCars;
+        private decimal Money { get; set; }
 
-        public Customer(string name)
+        public Customer(string name,decimal money)
         {
             Name = name;
             myCars = new List<Car>();
+            Money = money;
         }
 
         private void BuyCar()
@@ -21,6 +23,16 @@
             string accept = Console.ReadLine();
             if (accept == "yes")
             {
+                if (car.Price>Money)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+
+                    Console.WriteLine("You have not enough money");
+                    Thread.Sleep(2000);
+
+                    return;
+                }
+                Money -= car.Price;
                 myCars.Add(car);
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("Congrats, you bought this car");
