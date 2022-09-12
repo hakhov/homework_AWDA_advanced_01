@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework_AWDA_advanced_01",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework 27.08.22)", "homework 27.08.22)\homework 27.08.22).csproj", "{A0646D76-3ACC-4D96-A17F-88A290B07684}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework 31.08.22", "homework 31.08.22\homework 31.08.22.csproj", "{E2D24252-3D3E-464E-B935-9FD3827ED898}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework 31.08.22", "homework 31.08.22\homework 31.08.22.csproj", "{E2D24252-3D3E-464E-B935-9FD3827ED898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework 10.09.22,Car Project", "Homework 10.09.22,Car Project\Homework 10.09.22,Car Project.csproj", "{4615CE2E-AC44-4874-A126-203F289C3643}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E2D24252-3D3E-464E-B935-9FD3827ED898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2D24252-3D3E-464E-B935-9FD3827ED898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2D24252-3D3E-464E-B935-9FD3827ED898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4615CE2E-AC44-4874-A126-203F289C3643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4615CE2E-AC44-4874-A126-203F289C3643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4615CE2E-AC44-4874-A126-203F289C3643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4615CE2E-AC44-4874-A126-203F289C3643}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

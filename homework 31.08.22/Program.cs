@@ -8,7 +8,6 @@ double c = double.Parse(Console.ReadLine());
 Console.WriteLine(GetRoots(ref a,ref b,ref c));
 
 
-
 static (double,double) GetRoots( ref double a,ref double b,ref double c)
 {
     double x1=-1,x2=-1;
