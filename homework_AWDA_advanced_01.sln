@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discriminant", "Discriminan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountDiscriminant", "CountDiscriminant\CountDiscriminant.csproj", "{5A3780FC-EAE0-4B36-ACAA-2B6E62B885A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operator_OverloadingMain", "Operator_Overloading\Operator_OverloadingMain.csproj", "{68F147FC-8A06-43DF-948B-2BE9EC748CF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operator_OverloadingMain", "Operator_Overloading\Operator_OverloadingMain.csproj", "{68F147FC-8A06-43DF-948B-2BE9EC748CF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operaot_overloading", "Operaot_overloading\Operaot_overloading.csproj", "{4BEB15F6-4E9C-4C8B-85A0-A53D442D9882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operaot_overloading", "Operaot_overloading\Operaot_overloading.csproj", "{4BEB15F6-4E9C-4C8B-85A0-A53D442D9882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{361DD2B6-A288-4F33-B986-4887F0F2F7FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Absrtact_Drawing", "Drawing\Absrtact_Drawing.csproj", "{D3A4268A-46A3-42E1-95DB-AEFD8171B356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{4BEB15F6-4E9C-4C8B-85A0-A53D442D9882}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BEB15F6-4E9C-4C8B-85A0-A53D442D9882}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BEB15F6-4E9C-4C8B-85A0-A53D442D9882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361DD2B6-A288-4F33-B986-4887F0F2F7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361DD2B6-A288-4F33-B986-4887F0F2F7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361DD2B6-A288-4F33-B986-4887F0F2F7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361DD2B6-A288-4F33-B986-4887F0F2F7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A4268A-46A3-42E1-95DB-AEFD8171B356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A4268A-46A3-42E1-95DB-AEFD8171B356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A4268A-46A3-42E1-95DB-AEFD8171B356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A4268A-46A3-42E1-95DB-AEFD8171B356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
