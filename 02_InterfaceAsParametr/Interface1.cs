@@ -1,0 +1,5 @@
+﻿
+interface IMyInterface
+{
+    void Move();
+}
