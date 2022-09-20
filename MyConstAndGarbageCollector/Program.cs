@@ -20,13 +20,16 @@ namespace MyConstAndGarbageCollector
             Console.WriteLine(ClassForConst.xxa);
             Console.WriteLine(ClassForConst.xxb);
             Console.WriteLine(GC.GetTotalMemory(false));
-            ClassReadOnly first = new();
+            ClassReadOnly first = new();    
             Console.WriteLine(first.zz); 
             Console.WriteLine(GC.GetTotalMemory(false));
             Console.WriteLine(first.zz); 
             Console.WriteLine(first.zza); 
             Console.WriteLine(GC.GetTotalMemory(false));
             Console.WriteLine(first.zz);
+            Console.WriteLine(GC.GetTotalMemory(false));
+            Console.WriteLine(4);
+            Console.WriteLine(GC.GetTotalMemory(false));
             Console.WriteLine(first.zza);
             Console.WriteLine(first.zzb);
             Console.WriteLine(GC.GetTotalMemory(false));

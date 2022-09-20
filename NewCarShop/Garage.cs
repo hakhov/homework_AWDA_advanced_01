@@ -12,6 +12,7 @@ namespace NewCarShop
         public static List<Car> GetCars()
         {
             var cars = new List<Car>();
+
             cars.Add(new Car { Make = Make.Mazda, Name = "3", Color = Color.black, Price = 9500, Quantity = 2, ID = 1 });
             cars.Add(new Car { Make = Make.Mazda, Name = "3", Color = Color.red, Price = 9500, Quantity = 2, ID = 2 });
             cars.Add(new Car { Make = Make.Mazda, Name = "6", Color = Color.red, Price = 19500, Quantity = 2, ID = 3 });

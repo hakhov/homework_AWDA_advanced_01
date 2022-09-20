@@ -87,19 +87,25 @@ namespace Carshop
                 {
                     Console.WriteLine("You can buy only Mazda 3(0), Mazda 6(1) or Mazda RX8(2)");
                     Console.WriteLine("What do You wanna Buy ?");
+                    var isInt = int.TryParse(Console.ReadLine(),out int result);
+                    if (isInt)
+                    {
+                        switch (result)
+                        {
+                            case 0:
+                                return (9500, "mazda");
+                            case 1:
+                                return (19500, "mazda");
+                            case 2:
+                                return (29500, "mazda");
 
-                    if (int.Parse(Console.ReadLine()) == 0)
-                    {
-                        return (9500, "mazda");
-                    }
-                    else if (int.Parse(Console.ReadLine()) == 1)
-                    {
-                        return (19500, "mazda");
+                       }
                     }
                     else
                     {
-                        return (29500, "mazda");
+                        Console.WriteLine("Input correct digit!!!");
                     }
+                  
 
                 }
                 else
