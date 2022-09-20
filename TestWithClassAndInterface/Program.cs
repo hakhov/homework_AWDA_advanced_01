@@ -12,6 +12,10 @@ namespace TestWithClassAndInterface
             eat.EatingProcess();
             MyEatingMethod myEatingMethod = new Human();
             myEatingMethod.EatingProcess();
+            IEat eat1 = human as IEat;
+            eat1.EatingProcess();
+            MyEatingMethod myEatingMethod1 = human as MyEatingMethod;
+            myEatingMethod1.EatingProcess();
 
         }
     }
