@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShop", "CarShop\CarShop.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Explisit_Implisit", "Explisit_Implisit\Explisit_Implisit.csproj", "{6AEBB016-5BDE-43A2-8D7D-B740CC213A94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "Class\OperatorOverloading.csproj", "{E096EF98-8EA5-482B-8F22-BD304CDC40AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverloading", "Class\OperatorOverloading.csproj", "{E096EF98-8EA5-482B-8F22-BD304CDC40AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{3A8800F3-1DB2-481B-832D-9E03B131A9C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{E096EF98-8EA5-482B-8F22-BD304CDC40AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E096EF98-8EA5-482B-8F22-BD304CDC40AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E096EF98-8EA5-482B-8F22-BD304CDC40AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8800F3-1DB2-481B-832D-9E03B131A9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8800F3-1DB2-481B-832D-9E03B131A9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8800F3-1DB2-481B-832D-9E03B131A9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8800F3-1DB2-481B-832D-9E03B131A9C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
