@@ -22,8 +22,6 @@ foreach (var item in employees)
     item.ChangeSalary();
 }
 
-
-
 Programmer programmer = new Programmer("Jame Hardy", "Male", 30, 4200, "C++");
 employees.Add(programmer);
 
