@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
+<<<<<<< Updated upstream
 VisualStudioVersion = 17.3.32804.467
+=======
+VisualStudioVersion = 17.0.31919.166
+>>>>>>> Stashed changes
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework_AWDA_advanced_01", "homework_AWDA_advanced_01\homework_AWDA_advanced_01.csproj", "{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}"
 EndProject
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{44F15705-C1B1-4DCD-9804-32BB7F5D6932}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "static", "static\static.csproj", "{327EFE0A-1430-4B51-AB7A-0233B209D54F}"
@@ -14,6 +19,23 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_IndexerforDictionary", "04_IndexerforDictionary\04_IndexerforDictionary.csproj", "{A21B956C-B301-408C-986A-D17B7F70FE26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "init", "init\init.csproj", "{7470A856-5E4B-4421-8E89-118A3BE74E3C}"
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{65F52BE8-F7E5-4C15-A729-E5FDB55C815D}"
+EndProject
+<<<<<<< Updated upstream
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorForMethods", "OperatorForMethods\OperatorForMethods.csproj", "{FBBBFB43-A17F-4BE8-B5CE-A4B9AD540B97}"
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentSample", "StudentSample\StudentSample.csproj", "{06EBAB62-69B7-46E6-94D3-5716C2579645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_InterfaceIS", "01_InterfaceIS\01_InterfaceIS.csproj", "{66BDB61D-3FA0-4125-8380-971C301C9536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_InterfaceAsParametr", "02_InterfaceAsParametr\02_InterfaceAsParametr.csproj", "{32DF148A-E6FA-452F-BCB3-04DB3ED02BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_InterfaceInheritance", "03_InterfaceInheritance\03_InterfaceInheritance.csproj", "{C3FD8502-93C0-4F12-89B9-04C3AEEC38A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Struct", "04_Struct\04_Struct.csproj", "{E39FF482-FD50-4561-888C-022E8AC5BBE9}"
+>>>>>>> Stashed changes
+>>>>>>> 71e05fbee46cdbcd59589d2d73226672bb61e3ac
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +47,24 @@ Global
 		{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1B972D9-5FA0-45FD-96DB-C7EB14B4EF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+		{65F52BE8-F7E5-4C15-A729-E5FDB55C815D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F52BE8-F7E5-4C15-A729-E5FDB55C815D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F52BE8-F7E5-4C15-A729-E5FDB55C815D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F52BE8-F7E5-4C15-A729-E5FDB55C815D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBBFB43-A17F-4BE8-B5CE-A4B9AD540B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBBFB43-A17F-4BE8-B5CE-A4B9AD540B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBBFB43-A17F-4BE8-B5CE-A4B9AD540B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBBFB43-A17F-4BE8-B5CE-A4B9AD540B97}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 71e05fbee46cdbcd59589d2d73226672bb61e3ac
 		{44F15705-C1B1-4DCD-9804-32BB7F5D6932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{44F15705-C1B1-4DCD-9804-32BB7F5D6932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44F15705-C1B1-4DCD-9804-32BB7F5D6932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44F15705-C1B1-4DCD-9804-32BB7F5D6932}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{327EFE0A-1430-4B51-AB7A-0233B209D54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{327EFE0A-1430-4B51-AB7A-0233B209D54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{327EFE0A-1430-4B51-AB7A-0233B209D54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +81,29 @@ Global
 		{7470A856-5E4B-4421-8E89-118A3BE74E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7470A856-5E4B-4421-8E89-118A3BE74E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7470A856-5E4B-4421-8E89-118A3BE74E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{06EBAB62-69B7-46E6-94D3-5716C2579645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EBAB62-69B7-46E6-94D3-5716C2579645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EBAB62-69B7-46E6-94D3-5716C2579645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EBAB62-69B7-46E6-94D3-5716C2579645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BDB61D-3FA0-4125-8380-971C301C9536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BDB61D-3FA0-4125-8380-971C301C9536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BDB61D-3FA0-4125-8380-971C301C9536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BDB61D-3FA0-4125-8380-971C301C9536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32DF148A-E6FA-452F-BCB3-04DB3ED02BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DF148A-E6FA-452F-BCB3-04DB3ED02BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DF148A-E6FA-452F-BCB3-04DB3ED02BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DF148A-E6FA-452F-BCB3-04DB3ED02BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FD8502-93C0-4F12-89B9-04C3AEEC38A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FD8502-93C0-4F12-89B9-04C3AEEC38A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FD8502-93C0-4F12-89B9-04C3AEEC38A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FD8502-93C0-4F12-89B9-04C3AEEC38A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39FF482-FD50-4561-888C-022E8AC5BBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39FF482-FD50-4561-888C-022E8AC5BBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39FF482-FD50-4561-888C-022E8AC5BBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39FF482-FD50-4561-888C-022E8AC5BBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
+>>>>>>> 71e05fbee46cdbcd59589d2d73226672bb61e3ac
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
