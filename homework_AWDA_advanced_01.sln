@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawingOfPeople", "DrawingO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMyInterface", "IMyInterface\IMyInterface.csproj", "{38262CE5-7F6C-404D-9B64-8FC3C47E3D20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWorkOfInterface", "ClassWorkOfInterface\ClassWorkOfInterface.csproj", "{4ED00456-2A0B-4FE3-9365-2AAF3392D779}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassWorkOfInterface", "ClassWorkOfInterface\ClassWorkOfInterface.csproj", "{4ED00456-2A0B-4FE3-9365-2AAF3392D779}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWithClassAndInterface", "TestWithClassAndInterface\TestWithClassAndInterface.csproj", "{EBA2ED85-2A72-4EBC-BC5C-55C3C5EA2CA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWithClassAndInterface", "TestWithClassAndInterface\TestWithClassAndInterface.csproj", "{EBA2ED85-2A72-4EBC-BC5C-55C3C5EA2CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexer", "Indexer\Indexer.csproj", "{288D58B7-9776-410B-BE65-B0C619A92DF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{EBA2ED85-2A72-4EBC-BC5C-55C3C5EA2CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA2ED85-2A72-4EBC-BC5C-55C3C5EA2CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA2ED85-2A72-4EBC-BC5C-55C3C5EA2CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288D58B7-9776-410B-BE65-B0C619A92DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288D58B7-9776-410B-BE65-B0C619A92DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288D58B7-9776-410B-BE65-B0C619A92DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288D58B7-9776-410B-BE65-B0C619A92DF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -18,14 +18,14 @@ namespace NewCarShop
                 Console.WriteLine("You can buy ->");
                 foreach (var car in cars)
                 {
-                    Console.Write(car.InfoDetails());
+                    Console.Write(car.ToString());
                     Console.WriteLine();
                 }
                 Console.WriteLine("Which one do You want?");
                 Console.WriteLine("Please insert the ID");
 
                 var id = int.TryParse(Console.ReadLine(), out int id1);
-                buyProc.Buy(id1);
+                buyProc.Buy(id1,cars);
             } while (Console.ReadLine().ToLower() != "close");
            
         }

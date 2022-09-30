@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NewCarShop
 {
-    public class BuyingProcess
+    public class BuyingProcess : BuyAction
     {
         private static List<Car> allCars = Garage.GetCars();
 
@@ -22,21 +22,28 @@ namespace NewCarShop
             }
             return result;
         }
-        public void Buy(int id)
+        public override void Buy(int id, List <Car> cars)
         {
             var deletedCar = new Car();
-            foreach (var car in allCars)
+            var x = cars;
+            foreach (var car in cars)
             {
-                
-                if (car.ID==id)
+
+                if (car.ID == id)
                 {
 
                     deletedCar = car;
-                    Console.WriteLine($"Congrats You bought {car.InfoDetails()}");
+                    Console.WriteLine($"Congrats You bought {car.ToString()}");
                     break;
                 }
-            }
-            allCars.Remove(deletedCar);
+                else
+                {
+                    Console.WriteLine("Please insert Correct Id");
+                    break;
+                }
+
+                }
+                allCars.Remove(deletedCar);
             foreach (var item in allCars)
             {
                 if (item.Name==deletedCar.Name && item.Make==deletedCar.Make)

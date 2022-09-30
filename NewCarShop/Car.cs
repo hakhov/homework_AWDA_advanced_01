@@ -17,7 +17,8 @@ namespace NewCarShop
         public decimal Price { get; set; }
         public int Quantity { get; set; }
 
-        public  string InfoDetails()
+        
+        public override string ToString ()
         {
             return $" ID is {ID}, Make is {Make.ToString() }, Name is {Name}, Color is {Color.ToString()}, Price is {Price} "; 
         }
