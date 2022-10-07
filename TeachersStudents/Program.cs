@@ -8,8 +8,8 @@ namespace TeachersStudents
         {
 
             Generator obj = new Generator();
-            var students = obj.CreateGroup(36);
-            var teachers = obj.CreateTeacherGroup(6);
+            var students = obj.CreateStudnetsGroup(36);
+            var teachers = obj.CreateTeachersGroup(6);
             Console.WriteLine("/////////");
             var classRooms = obj.ClassRoomGenerator(teachers, students);
             obj.GetInfoClassroom(classRooms);

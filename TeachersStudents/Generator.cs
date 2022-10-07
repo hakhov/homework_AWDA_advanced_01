@@ -10,7 +10,7 @@ namespace TeachersStudents
     {
         //static  List<Student> StuList = new List<Student>();
       //  static List<Teacher> TeachList = new List<Teacher>();
-        public List<Student> CreateGroup(int count)
+        public List<Student> CreateStudnetsGroup(int count)
         {
             var StuList = new List<Student>();
             Random random = new Random();
@@ -35,7 +35,7 @@ namespace TeachersStudents
                 student.GetInfo();
             }
         }
-        public List<Teacher> CreateTeacherGroup(int count)
+        public List<Teacher> CreateTeachersGroup(int count)
         {
             Random random = new Random();
             List<Teacher> TeachList = new List<Teacher>();
