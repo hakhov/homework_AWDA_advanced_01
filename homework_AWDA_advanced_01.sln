@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sctruct_Ref", "Sctruct_Ref\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructWithRef", "StructWithRef\StructWithRef.csproj", "{B036BFFA-FAC0-440F-B532-2109B7BF580B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeferenceBtwEqauls", "DeferenceBtwEqauls\DeferenceBtwEqauls.csproj", "{2A1837DE-484E-4B48-8EDB-4595A8A810CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeferenceBtwEqauls", "DeferenceBtwEqauls\DeferenceBtwEqauls.csproj", "{2A1837DE-484E-4B48-8EDB-4595A8A810CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualsRefEqualsInstance", "EqualsRefEqualsInstance\EqualsRefEqualsInstance.csproj", "{2D58F5ED-E213-47E9-A2DC-76A061CCA94D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualsRefEqualsInstance", "EqualsRefEqualsInstance\EqualsRefEqualsInstance.csproj", "{2D58F5ED-E213-47E9-A2DC-76A061CCA94D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Compare", "String_Compare\String_Compare.csproj", "{9D28FF77-4D0D-462A-BB2B-8003814CBAA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{2D58F5ED-E213-47E9-A2DC-76A061CCA94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D58F5ED-E213-47E9-A2DC-76A061CCA94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D58F5ED-E213-47E9-A2DC-76A061CCA94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D28FF77-4D0D-462A-BB2B-8003814CBAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D28FF77-4D0D-462A-BB2B-8003814CBAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D28FF77-4D0D-462A-BB2B-8003814CBAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D28FF77-4D0D-462A-BB2B-8003814CBAA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
