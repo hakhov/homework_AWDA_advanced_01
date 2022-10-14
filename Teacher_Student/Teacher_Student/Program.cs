@@ -8,10 +8,10 @@ if (countTeacher < 1 || countTeacher > 5)
     goto ERROR1;
 }
 
-ERROR2: Console.Write("Enter students count(10-100): ");
+ERROR2: Console.Write("Enter students count(10-50): ");
 int countStudent = int.Parse(Console.ReadLine());
 
-if (countStudent < 10 || countStudent > 100)
+if (countStudent < 10 || countStudent > 50)
 {
     Console.WriteLine("Wrong command");
     goto ERROR2;
