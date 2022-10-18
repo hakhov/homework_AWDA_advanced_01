@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace TestWithClassAndInterface
 {
-    interface IEat
+    class StandardClass
     {
+        public virtual void Eating() 
+        { 
         
-        void EatingProcess();
+        }
+
     }
 }

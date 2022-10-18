@@ -19,9 +19,9 @@ namespace DrawingOfPeople
 
         public override void DisplayQuantity()
         {
-            
-                Console.WriteLine($"I am {User} and I have {Marker} markers, {Pencil} pencils and {OilColor} oilcolors!!!");
-            
+
+            Console.WriteLine($"I am {User} and I have {Marker} markers, {Pencil} pencils and {OilColor} oilcolors!!!");
+
         }
 
         public People()

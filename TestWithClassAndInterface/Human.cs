@@ -6,18 +6,22 @@ using System.Threading.Tasks;
 
 namespace TestWithClassAndInterface
 {
-    class Human : MyEatingMethod, IEat
+    class Human : StandardClass, IEat
     {
          void IEat.EatingProcess()
         {
             Console.WriteLine("Eating from Interface");
         }
 
-        public override void EatingProcess()
+        //public override void EatingProcess()
+        //{
+        //    Console.WriteLine("Eating from Inherited Method");
+        //}
+        public override void Eating()
         {
-            Console.WriteLine("Eating from Inherited Method");
+            base.Eating();
         }
 
-       
+
     }
 }

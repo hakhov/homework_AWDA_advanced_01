@@ -8,9 +8,6 @@ namespace TestWithClassAndInterface
 {
     public abstract class MyEatingMethod
     {
-
-
-
         public abstract void EatingProcess();
 
     }

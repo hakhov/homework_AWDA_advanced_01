@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FIB
 {
-    class Fib
+   public class Fib
     {
         public int CalcFib(int n)
         {
@@ -15,6 +15,10 @@ namespace FIB
                 return 1;
             }
             else return CalcFib(n - 1) + CalcFib(n - 2);
+          
+           
         }
+        
     }
+   
 }
