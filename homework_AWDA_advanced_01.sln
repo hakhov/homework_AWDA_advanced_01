@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachersStudents", "Teacher
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithStrings", "WorkingWithStrings\WorkingWithStrings.csproj", "{BF1F7E8E-82BD-4FF2-A196-13B6B05A13CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRegEx", "WorkingWithRegEx\WorkingWithRegEx.csproj", "{FFC51698-BDBF-4C53-8831-89A79A94AB44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithRegEx", "WorkingWithRegEx\WorkingWithRegEx.csproj", "{FFC51698-BDBF-4C53-8831-89A79A94AB44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithDelegateAndLyambdaExpressions", "WorkingWithDelegateAndLyambdaExpressions\WorkingWithDelegateAndLyambdaExpressions.csproj", "{02F9A208-E36B-48C7-80E7-764A334D784B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{FFC51698-BDBF-4C53-8831-89A79A94AB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFC51698-BDBF-4C53-8831-89A79A94AB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFC51698-BDBF-4C53-8831-89A79A94AB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F9A208-E36B-48C7-80E7-764A334D784B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F9A208-E36B-48C7-80E7-764A334D784B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F9A208-E36B-48C7-80E7-764A334D784B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F9A208-E36B-48C7-80E7-764A334D784B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
