@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework4.2", "Homework4.2\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework-6", "Homework-6\Homework-6.csproj", "{20F21136-B12C-4B2A-8723-F0C0BB9C4204}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsShop", "ShopCar\CarsShop.csproj", "{387CE5B5-F8EC-4231-BEF5-3ADD7C923F25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsShop", "ShopCar\CarsShop.csproj", "{387CE5B5-F8EC-4231-BEF5-3ADD7C923F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{E9EFB885-EBB7-4824-BF38-BE2BBB237C7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{387CE5B5-F8EC-4231-BEF5-3ADD7C923F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{387CE5B5-F8EC-4231-BEF5-3ADD7C923F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{387CE5B5-F8EC-4231-BEF5-3ADD7C923F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9EFB885-EBB7-4824-BF38-BE2BBB237C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9EFB885-EBB7-4824-BF38-BE2BBB237C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9EFB885-EBB7-4824-BF38-BE2BBB237C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9EFB885-EBB7-4824-BF38-BE2BBB237C7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
