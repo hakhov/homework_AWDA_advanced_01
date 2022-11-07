@@ -55,7 +55,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithDelegateAndLyamb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateAsParameterOfDelegate", "DelegateAsParameterOfDelegate\DelegateAsParameterOfDelegate.csproj", "{695C3DC4-3ED4-417B-9C0E-6A588502D5B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationVerification", "RegistrationVerification\RegistrationVerification.csproj", "{B5B559DA-AD92-4C76-A463-085C8DAF05EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationVerification", "RegistrationVerification\RegistrationVerification.csproj", "{B5B559DA-AD92-4C76-A463-085C8DAF05EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTac", "TicTac\TicTac.csproj", "{99CCDE77-468B-4B44-9CE7-C241C350BEB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyPress", "KeyPress\KeyPress.csproj", "{0A371F15-C34A-441F-A487-A0F19FBFB04A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter", "Converter\Converter.csproj", "{328F293C-C8E4-494A-B93E-BC9004D452C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +177,18 @@ Global
 		{B5B559DA-AD92-4C76-A463-085C8DAF05EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5B559DA-AD92-4C76-A463-085C8DAF05EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5B559DA-AD92-4C76-A463-085C8DAF05EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CCDE77-468B-4B44-9CE7-C241C350BEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CCDE77-468B-4B44-9CE7-C241C350BEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CCDE77-468B-4B44-9CE7-C241C350BEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CCDE77-468B-4B44-9CE7-C241C350BEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A371F15-C34A-441F-A487-A0F19FBFB04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A371F15-C34A-441F-A487-A0F19FBFB04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A371F15-C34A-441F-A487-A0F19FBFB04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A371F15-C34A-441F-A487-A0F19FBFB04A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328F293C-C8E4-494A-B93E-BC9004D452C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328F293C-C8E4-494A-B93E-BC9004D452C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328F293C-C8E4-494A-B93E-BC9004D452C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328F293C-C8E4-494A-B93E-BC9004D452C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
