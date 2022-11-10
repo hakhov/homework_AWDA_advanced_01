@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿using OperatorForMethods;
 
 <<<<<<< Updated upstream
@@ -27,4 +28,7 @@ Operation obM = ob1 * ob2;
 Operation obR = ob1 % ob2;
 
 Console.WriteLine(obA.a);
+>>>>>>> Stashed changes
+=======
+﻿
 >>>>>>> Stashed changes
