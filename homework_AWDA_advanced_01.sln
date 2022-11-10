@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Get_discriminant", "Get_dis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operator_Overloads", "Operator_Overloads\Operator_Overloads.csproj", "{CA9C293B-F35C-4E8B-9D18-35D322BDCBA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get_discriminant_with ref", "Get_discriminant_with ref\Get_discriminant_with ref.csproj", "{42EA53FD-9494-4BCB-ABDE-1D17207114C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Get_discriminant_with ref", "Get_discriminant_with ref\Get_discriminant_with ref.csproj", "{42EA53FD-9494-4BCB-ABDE-1D17207114C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureMove", "PictureMove\PictureMove.csproj", "{606F4EF5-DFBC-4983-BA42-419EF5A28C8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{42EA53FD-9494-4BCB-ABDE-1D17207114C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42EA53FD-9494-4BCB-ABDE-1D17207114C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42EA53FD-9494-4BCB-ABDE-1D17207114C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606F4EF5-DFBC-4983-BA42-419EF5A28C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606F4EF5-DFBC-4983-BA42-419EF5A28C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606F4EF5-DFBC-4983-BA42-419EF5A28C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606F4EF5-DFBC-4983-BA42-419EF5A28C8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
