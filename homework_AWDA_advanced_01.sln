@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_InterfaceAndInterface", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework 05.09.22", "Homework 05.09.22\Homework 05.09.22.csproj", "{697E55BE-2A2F-4DD9-9102-534698F89BEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAndClass", "InterfaceAndClass\InterfaceAndClass.csproj", "{39E00B41-37B4-436B-B4B8-CFCDB006DF5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAndClass", "InterfaceAndClass\InterfaceAndClass.csproj", "{39E00B41-37B4-436B-B4B8-CFCDB006DF5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacaAndClass_01", "InterfacaAndClass_01\InterfacaAndClass_01.csproj", "{6A49D4CB-DCD6-403F-9FD3-344E186FA941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacaAndClass_01", "InterfacaAndClass_01\InterfacaAndClass_01.csproj", "{6A49D4CB-DCD6-403F-9FD3-344E186FA941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateWithDelegateParametres", "DelegateWithDelegateParametres\DelegateWithDelegateParametres.csproj", "{56386C26-EE0E-4D6A-A175-D8E2FF84EF1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{6A49D4CB-DCD6-403F-9FD3-344E186FA941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A49D4CB-DCD6-403F-9FD3-344E186FA941}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A49D4CB-DCD6-403F-9FD3-344E186FA941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56386C26-EE0E-4D6A-A175-D8E2FF84EF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56386C26-EE0E-4D6A-A175-D8E2FF84EF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56386C26-EE0E-4D6A-A175-D8E2FF84EF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56386C26-EE0E-4D6A-A175-D8E2FF84EF1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
