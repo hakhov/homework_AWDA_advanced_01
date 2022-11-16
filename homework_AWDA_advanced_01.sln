@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeferenceBtwEqauls", "Defer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualsRefEqualsInstance", "EqualsRefEqualsInstance\EqualsRefEqualsInstance.csproj", "{2D58F5ED-E213-47E9-A2DC-76A061CCA94D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Compare", "String_Compare\String_Compare.csproj", "{9D28FF77-4D0D-462A-BB2B-8003814CBAA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String_Compare", "String_Compare\String_Compare.csproj", "{9D28FF77-4D0D-462A-BB2B-8003814CBAA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics_withdelegate", "Generics_withdelegate\Generics_withdelegate.csproj", "{1F049ACA-3B99-403B-883F-AD1C2DBE6FE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{9D28FF77-4D0D-462A-BB2B-8003814CBAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D28FF77-4D0D-462A-BB2B-8003814CBAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D28FF77-4D0D-462A-BB2B-8003814CBAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F049ACA-3B99-403B-883F-AD1C2DBE6FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F049ACA-3B99-403B-883F-AD1C2DBE6FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F049ACA-3B99-403B-883F-AD1C2DBE6FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F049ACA-3B99-403B-883F-AD1C2DBE6FE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
